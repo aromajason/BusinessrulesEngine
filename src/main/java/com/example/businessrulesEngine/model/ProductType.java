@@ -1,4 +1,8 @@
 package com.example.businessrulesEngine.model;
 
-public class ProductType {
+public enum ProductType {
+    PHYSICAL,
+    MEMBERSHIP,
+    VIRTUAL,
+    UPGRADE_MEMBERSHIP
 }
