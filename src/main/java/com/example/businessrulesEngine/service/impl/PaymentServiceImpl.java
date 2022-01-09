@@ -4,7 +4,9 @@ import com.example.businessrulesEngine.model.PaymentRequest;
 import com.example.businessrulesEngine.pipeline.Pipeline;
 import com.example.businessrulesEngine.pipeline.handler.*;
 import com.example.businessrulesEngine.service.PaymentService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class PaymentServiceImpl implements PaymentService {
     @Override
     public void processPayment(PaymentRequest paymentRequest) {
