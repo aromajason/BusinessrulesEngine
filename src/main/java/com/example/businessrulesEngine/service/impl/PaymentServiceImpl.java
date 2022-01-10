@@ -15,7 +15,6 @@ public class PaymentServiceImpl implements PaymentService {
                 .addHandler(new CommissionPaymentHandler())
                 .addHandler(new EmailHandler())
                 .addHandler(new MembershipHandler())
-                .addHandler(new PhysicalProductHandler())
                 .addHandler(new UpgradeMembershipHandler())
                 .addHandler(new VideoHandler());
         filters.execute(paymentRequest);
